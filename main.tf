@@ -16,3 +16,7 @@ module "root_create_ec2" {
      key_name = var.root_key_name
      filepath = var.root_filepath
 }
+
+module "root_remote_exec" {
+     source = ""
+}
